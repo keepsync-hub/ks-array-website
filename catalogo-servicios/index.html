@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo de Servicios &#8211; ARRAY Consulting Group</title>
+<meta name="description" content="Catálogo de servicios de ARRAY Consulting Group: soluciones de automatización e inteligencia artificial para la industria.">
+<link rel="icon" href="../wp-content/uploads/2023/03/cropped-output-onlinepngtools-32x32.png" sizes="32x32">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--primary:#3a3839;--secondary:#f2a800;--ink:#3a3839;--muted:#7f7f7f;--line:#e6e6e6;--bg:#f7f7f8;}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:"Poppins",sans-serif;color:var(--muted);background:#fff;}
+  a{color:var(--secondary);text-decoration:none;}
+  img{max-width:100%;display:block;}
+  /* Header */
+  .site-header{display:flex;align-items:center;justify-content:space-between;padding:18px 28px;border-bottom:1px solid var(--line);position:sticky;top:0;background:#fff;z-index:10;}
+  .site-header .logo img{height:54px;width:auto;}
+  .site-header nav a{color:var(--primary);font-weight:700;text-transform:uppercase;font-size:13px;letter-spacing:.4px;margin-left:24px;}
+  .site-header nav a:hover{color:var(--secondary);}
+  /* Hero */
+  .hero{background:var(--primary);color:#fff;padding:64px 28px;text-align:center;}
+  .hero h1{font-size:40px;margin:0 0 14px;font-weight:700;letter-spacing:.5px;}
+  .hero p{max-width:760px;margin:0 auto;font-size:17px;line-height:1.6;color:#d9d9d9;}
+  .hero .kicker{color:var(--secondary);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:13px;display:block;margin-bottom:10px;}
+  /* Catalog grid */
+  .catalog{max-width:1200px;margin:0 auto;padding:60px 28px 80px;}
+  .catalog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:30px;}
+  .service-card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s;}
+  .service-card:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(0,0,0,.12);}
+  .service-card .card-media{aspect-ratio:16/10;overflow:hidden;background:var(--bg);}
+  .service-card .card-media img{width:100%;height:100%;object-fit:cover;}
+  .service-card .card-body{padding:24px;display:flex;flex-direction:column;flex:1;}
+  .service-card .tag{display:inline-block;align-self:flex-start;background:rgba(242,168,0,.14);color:#a86f00;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;padding:5px 10px;border-radius:999px;margin-bottom:14px;}
+  .service-card h3{color:var(--primary);font-size:20px;line-height:1.3;margin:0 0 12px;}
+  .service-card p{font-size:14.5px;line-height:1.6;margin:0 0 22px;}
+  .service-card .card-link{margin-top:auto;align-self:flex-start;background:var(--secondary);color:#fff;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.5px;padding:11px 20px;border-radius:8px;transition:background .2s;}
+  .service-card .card-link:hover{background:#d99400;}
+  /* Footer */
+  .site-footer{background:#1c1c1c;color:#9a9a9a;text-align:center;padding:34px 20px;font-size:13px;}
+  .site-footer a{color:var(--secondary);}
+  @media(max-width:600px){.hero h1{font-size:30px;}.site-header{flex-direction:column;gap:12px;}.site-header nav a{margin:0 12px;}}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="../index.html"><img src="../wp-content/uploads/2022/06/Logo-AA.png" alt="ARRAY Consulting Group"></a>
+  <nav>
+    <a href="../index.html">Inicio</a>
+    <a href="index.html">Catálogo de Servicios</a>
+    <a href="../index.html#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <span class="kicker">ARRAY · Soluciones Corporativas</span>
+  <h1>Catálogo de Servicios</h1>
+  <p>Explora las soluciones de ARRAY que combinan automatización robótica de procesos e inteligencia artificial para transformar la operación de tu empresa en una ventaja competitiva.</p>
+</section>
+
+<main class="catalog">
+  <div class="catalog-grid">
+
+    <!-- ============================================================
+         PLANTILLA DE TARJETA DE SERVICIO
+         Para agregar un nuevo servicio, copia este bloque <article>,
+         actualiza imagen, etiqueta, título, descripción (máx. 500
+         caracteres) y el enlace href a su página de detalle.
+         ============================================================ -->
+    <article class="service-card">
+      <div class="card-media">
+        <img src="assets/portada.jpg" alt="Optimización del Ciclo de Vida del Colaborador" loading="lazy">
+      </div>
+      <div class="card-body">
+        <span class="tag">Automatización + IA</span>
+        <h3>Optimización del Ciclo de Vida del Colaborador</h3>
+        <p>Automatización (RPA) e inteligencia artificial para la industria salmonera. ARRAY detecta altas y bajas en RRHH en tiempo real, prepara cuentas, accesos y activos antes del Día 1, y al egreso valoriza cada activo con depreciación exacta para un finiquito justo y auditable. De equipos reactivos a procesos que funcionan solos.</p>
+        <a class="card-link" href="optimizacion-ciclo-vida-colaborador/index.html">Ver detalle del servicio</a>
+      </div>
+    </article>
+
+    <!-- Nuevos servicios se agregan aquí siguiendo la plantilla anterior. -->
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; ARRAY Consulting Group &mdash; <a href="../index.html">array.cl</a></p>
+</footer>
+</body>
+</html>
